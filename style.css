@@ -1,0 +1,38 @@
+/*
+Theme Name: Polypress
+Theme URI: https://wordpress.org/themes/polypress
+Author: The Polyfen Group
+Author URI: https://thepolyfengroup.com
+Description: TBD.
+Version: 0.1
+*/
+
+header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+a.logo {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+a.logo span {
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    z-index: 100;
+    top: 24px;
+    left: 24px;
+    background-color: hsl(206, 23%, 94%);
+}
